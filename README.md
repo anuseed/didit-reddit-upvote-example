@@ -61,9 +61,10 @@ The project is a work in progress and is not yet complete.
 
 - I got a link error after deployment when trying to login in. This was because I needed to change the paths to contain the vercel url in my github auth page.
 
-# Features added
+# Features added and errors fixed
 
 - Added error page and not found page
 - Not found page works with link that takes you back to the main page
 - For the error page the reset button doesn't work in that it creates a blank screen and does not take you to the previous page
 - Added post title with metadata to display in tab by adding a generateMetadata function.
+- Changed img to Image and changed the authorisation for src to include all images in the next.config.js file
