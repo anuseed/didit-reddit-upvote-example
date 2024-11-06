@@ -19,10 +19,14 @@ export default function GlobalError({ error, reset }) {
           />
         </svg>
         <span>Oh no! Something went wrong on that page!</span>
-        <p>{error.message}</p>
       </div>
 
-      <button className="border-2" onClick={() => reset()}>
+      <p>{error.message}</p>
+
+      <button
+        className="bg-pink-300 text-black px-3 py-2 rounded"
+        onClick={() => reset()}
+      >
         Try again
       </button>
     </div>

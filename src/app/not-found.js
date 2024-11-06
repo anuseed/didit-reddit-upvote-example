@@ -20,7 +20,7 @@ export default function NotFound() {
         <span>Page not found</span>
       </div>
 
-      <Link href="/" className="btn btn-success">
+      <Link href="/" className="bg-pink-300 text-black px-3 py-2 rounded">
         Return to the homepage
       </Link>
     </div>
