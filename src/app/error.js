@@ -19,9 +19,8 @@ export default function GlobalError({ error, reset }) {
           />
         </svg>
         <span>Oh no! Something went wrong on that page!</span>
+        <p>{error.message}</p>
       </div>
-
-      <p>{error.message}</p>
 
       <button className="border-2" onClick={() => reset()}>
         Try again
