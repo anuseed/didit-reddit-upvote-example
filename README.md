@@ -46,3 +46,22 @@ The project is a work in progress and is not yet complete.
 - [ ] User following
 - [ ] User feed (posts from users you follow)
 - [ ] User flair
+
+## Week 11 Assignment Reflection
+
+# Deploying to vercel
+
+- I watched the video on how to setup Next Auth using github and followed the instructions there as well as those in the readme to get the auth_github_id and auth_github_secret and added these to the .env.local file.
+- I then created a supabase project and added all the sql from the schema.sql to create the database tables needed for the project. I linked the database by adding all the .env variables to the .env.local file.
+- There was one error in the sql that needed to be fixed first ( an extra ,), once done the sql ran without errors.
+- I tested that the database was working in my local host then I made a new project in vercel and linked the github repo to it.
+- At this point it ran without errors and I was able to deploy to vercel.
+
+# Errors after deployment
+
+- I got a link error after deployment when trying to login in. This was because I needed to change the paths to contain the vercel url in my github auth page.
+
+# Features added
+
+- Added error page and not found page
+- Added post title with metadata to display in tab
