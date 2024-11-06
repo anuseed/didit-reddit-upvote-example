@@ -78,4 +78,3 @@ CREATE TABLE votes (
     created_at TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP
     UNIQUE(user_id, post_id, vote_type)
 );
--- comment: removed , at end of DEFAULT CURRENT_TIMESTAMP
